@@ -9,7 +9,7 @@ GUIPanel::GUIPanel(sf::FloatRect rect) : sf::Drawable(), m_nPlayerScore(0), m_nS
 
 GUIPanel::~GUIPanel()
 {
-    //dtor
+    // Todo: delete m_border;
 }
 
 void GUIPanel::Render(sf::RenderTarget& target, sf::Renderer& renderer) const
